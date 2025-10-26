@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "basic_workflow": "./src/workflows/basic_workflow.py:create_langgraph_workflow",
+        "advanced_workflow": "./src/workflows/advanced_workflow.py:create_advanced_workflow"
+    },
+    "env": ".env"
+}
