@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "agent_workflow": "./main.py:create_workflow"
+    },
+    "env": ".env"
+}

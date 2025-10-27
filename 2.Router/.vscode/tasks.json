@@ -1,0 +1,47 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run LangGraph Workflow",
+			"type": "shell",
+			"command": "C:/Users/vinod/AppData/Local/Programs/Python/Python312/python.exe",
+			"args": [
+				"main.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Run Advanced Workflow",
+			"type": "shell",
+			"command": "C:/Users/vinod/AppData/Local/Programs/Python/Python312/python.exe",
+			"args": [
+				"advanced_example.py"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Start LangGraph Studio",
+			"type": "shell",
+			"command": "langgraph",
+			"args": [
+				"studio"
+			],
+			"isBackground": true,
+			"group": "test"
+		},
+		{
+			"label": "Start Jupyter Notebook",
+			"type": "shell",
+			"command": "C:/Users/vinod/AppData/Local/Programs/Python/Python312/python.exe",
+			"args": [
+				"-m",
+				"jupyter",
+				"notebook"
+			],
+			"isBackground": true,
+			"group": "test"
+		}
+	]
+}
